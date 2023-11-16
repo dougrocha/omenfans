@@ -1,3 +1,16 @@
-<div class="flex min-h-screen w-full items-center justify-center">
-	<h1>Omen Fans</h1>
+<script>
+	import cn from '$lib';
+	import omenFullBodyImg from '$lib/images/omen-full-body.webp';
+	import valorantLogoImg from '$lib/images/valorant-logo.png';
+</script>
+
+<div class="p-2">
+	<div class="flex items-center justify-center">
+		<img src={omenFullBodyImg} alt="Omen full body" class="mt-20 w-72 select-none" />
+	</div>
+
+	<div class="flex flex-col items-start p-4 sm:items-center">
+		<img src={valorantLogoImg} alt="Valorant logo" class="w-24 select-none" />
+		<span class={cn('select-none text-6xl font-bold text-[#ece8e1]')}>Coming Soon</span>
+	</div>
 </div>

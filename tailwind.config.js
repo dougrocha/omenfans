@@ -3,8 +3,9 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
-			colors: {
-				primary: '#403a56'
+			fontFamily: {
+				Montserrat: ['Montserrat', 'sans-serif'],
+				Tungsten: ['Tungsten', 'sans-serif']
 			}
 		}
 	},
