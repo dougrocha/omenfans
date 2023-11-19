@@ -1,5 +1,5 @@
 <script>
-	import cn from '$lib';
+	import { cn } from '$lib/utils';
 	import omenFullBodyImg from '$lib/images/omen-full-body.webp';
 	import valorantLogoImg from '$lib/images/valorant-logo.png';
 </script>
